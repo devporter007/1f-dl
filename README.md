@@ -8,9 +8,10 @@ A Very simple and barebone program to download stuff from 1fichier on enviroment
   <LI> Python 3.9 or higher </LI>
 </UL>
 
-Commandline Arguements are optional.
+
 
 <H2> Commandline Arguements </H2>
+Commandline Arguements are optional.
 <UL>
   <LI> -h            : Displays help and exit</LI>
   <LI> -u / --url    : Input URL</LI>
