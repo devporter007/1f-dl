@@ -17,7 +17,7 @@ else:
 if ty.output is None:
     outputLocation = os.path.dirname(__file__)
 else:
-    if ty.output[-1] == "\\" or ty.output[-1] == "/":
+    if ty.output[-1] in ("\\", "/"):
         outputLocation = ty.output[:-1]
     else:
         outputLocation = ty.output
