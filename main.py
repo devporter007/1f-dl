@@ -9,12 +9,12 @@ parser.add_argument("-o","--output",help="Enter Output location of the file, Fil
 ty = parser.parse_args()
 
 
-if ty.url == None:
+if ty.url is None:
     uri = input("Enter 1fichier URL: ")
 else:
     uri = ty.url
 
-if ty.output == None:
+if ty.output is None:
     outputLocation = os.path.dirname(__file__)
 else:
     if ty.output[-1] == "\\" or ty.output[-1] == "/":
